@@ -1,4 +1,4 @@
-# KiCad LED Array 🚧 (Work in Progress)
+# KiCad LED Array (Work in Progress)
 
 This project is a custom PCB built in **KiCad** that drives a 32×32 LED matrix using an **STM32 microcontroller**.
 
@@ -13,7 +13,6 @@ This project was inspired (and guided) by my friend [@floreacton](https://github
 ---
 
 ## Current Status
-🚧 **In Progress**
 This design is still being prototyped. Expect changes to both the schematic and PCB layout as I refine the design.
 
 ---
