@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "32e72707-abfb-413e-b3d3-a55c3821501a")
 	(paper "A4")
 	(lib_symbols)
@@ -313,7 +313,6 @@
 	)
 	(label "RCLK"
 		(at 90.17 45.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -324,7 +323,6 @@
 	)
 	(label "SRCLK"
 		(at 139.7 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -335,7 +333,6 @@
 	)
 	(label "RCLK"
 		(at 139.7 46.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -346,7 +343,6 @@
 	)
 	(label "SRCLK"
 		(at 90.17 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -357,7 +353,6 @@
 	)
 	(label "RCLK"
 		(at 40.64 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -368,7 +363,6 @@
 	)
 	(label "RCLK"
 		(at 189.23 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -379,7 +373,6 @@
 	)
 	(label "SRCLK"
 		(at 189.23 45.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -390,7 +383,6 @@
 	)
 	(label "SRCLK"
 		(at 40.64 41.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -402,7 +394,6 @@
 	(hierarchical_label "SER"
 		(shape input)
 		(at 40.64 39.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -414,7 +405,6 @@
 	(hierarchical_label "RCLK"
 		(shape input)
 		(at 40.64 44.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -426,7 +416,6 @@
 	(hierarchical_label "K[0..7]"
 		(shape input)
 		(at 227.33 34.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -438,7 +427,6 @@
 	(hierarchical_label "SRCLK"
 		(shape input)
 		(at 40.64 41.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -450,6 +438,10 @@
 	(sheet
 		(at 46.99 36.83)
 		(size 26.67 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -479,53 +471,53 @@
 		)
 		(pin "RCLK" input
 			(at 46.99 44.45 180)
+			(uuid "fb17363f-302d-4a00-9828-12060afdff13")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "fb17363f-302d-4a00-9828-12060afdff13")
 		)
 		(pin "SRCLK" input
 			(at 46.99 41.91 180)
+			(uuid "dc34a7aa-e6af-498e-92e9-456d53d5b673")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "dc34a7aa-e6af-498e-92e9-456d53d5b673")
 		)
 		(pin "SER" input
 			(at 46.99 39.37 180)
+			(uuid "12a9d547-3753-414d-840c-d21111c1edc6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "12a9d547-3753-414d-840c-d21111c1edc6")
 		)
 		(pin "OUT" input
 			(at 73.66 44.45 0)
+			(uuid "9f94e779-91ba-49ab-8bc2-a5d869596e78")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "9f94e779-91ba-49ab-8bc2-a5d869596e78")
 		)
 		(pin "K[0..7]" input
 			(at 73.66 40.64 0)
+			(uuid "394a9e9d-8324-4594-8944-271bbb31c998")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "394a9e9d-8324-4594-8944-271bbb31c998")
 		)
 		(instances
 			(project "led-array"
@@ -547,6 +539,10 @@
 	(sheet
 		(at 195.58 40.64)
 		(size 26.67 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -576,53 +572,53 @@
 		)
 		(pin "RCLK" input
 			(at 195.58 48.26 180)
+			(uuid "b67bac1e-8afa-4ed7-ad3f-effc13deabc4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b67bac1e-8afa-4ed7-ad3f-effc13deabc4")
 		)
 		(pin "SRCLK" input
 			(at 195.58 45.72 180)
+			(uuid "bcbab2bc-b342-46b4-8082-e9f8d55d10f9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "bcbab2bc-b342-46b4-8082-e9f8d55d10f9")
 		)
 		(pin "SER" input
 			(at 195.58 43.18 180)
+			(uuid "e1002b5c-26cb-45e0-84d5-8332c4d0b71c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e1002b5c-26cb-45e0-84d5-8332c4d0b71c")
 		)
 		(pin "OUT" input
 			(at 222.25 48.26 0)
+			(uuid "0d1c4388-9735-4172-943b-24cd9d843b74")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0d1c4388-9735-4172-943b-24cd9d843b74")
 		)
 		(pin "K[0..7]" input
 			(at 222.25 44.45 0)
+			(uuid "cf6e742a-5090-4b7f-9084-1e9b2e88ed85")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "cf6e742a-5090-4b7f-9084-1e9b2e88ed85")
 		)
 		(instances
 			(project "led-array"
@@ -644,6 +640,10 @@
 	(sheet
 		(at 146.05 39.37)
 		(size 26.67 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -673,53 +673,53 @@
 		)
 		(pin "RCLK" input
 			(at 146.05 46.99 180)
+			(uuid "2b85259b-4380-41dd-afed-66ca1158b4a7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2b85259b-4380-41dd-afed-66ca1158b4a7")
 		)
 		(pin "SRCLK" input
 			(at 146.05 44.45 180)
+			(uuid "f7f87423-4c34-4b1a-bb49-4f369125022e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f7f87423-4c34-4b1a-bb49-4f369125022e")
 		)
 		(pin "SER" input
 			(at 146.05 41.91 180)
+			(uuid "14a97b9c-255e-4ae2-97b9-dc2d18f73929")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "14a97b9c-255e-4ae2-97b9-dc2d18f73929")
 		)
 		(pin "OUT" input
 			(at 172.72 46.99 0)
+			(uuid "52674594-13e8-467c-82d1-619c2116c286")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "52674594-13e8-467c-82d1-619c2116c286")
 		)
 		(pin "K[0..7]" input
 			(at 172.72 43.18 0)
+			(uuid "b87146d4-32cd-4790-9ad5-a641cba48af1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b87146d4-32cd-4790-9ad5-a641cba48af1")
 		)
 		(instances
 			(project "led-array"
@@ -741,6 +741,10 @@
 	(sheet
 		(at 96.52 38.1)
 		(size 26.67 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -770,53 +774,53 @@
 		)
 		(pin "RCLK" input
 			(at 96.52 45.72 180)
+			(uuid "55096629-4f41-44f1-be64-eda723821002")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "55096629-4f41-44f1-be64-eda723821002")
 		)
 		(pin "SRCLK" input
 			(at 96.52 43.18 180)
+			(uuid "e0eb10a4-c162-4998-8081-3fc273116bee")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e0eb10a4-c162-4998-8081-3fc273116bee")
 		)
 		(pin "SER" input
 			(at 96.52 40.64 180)
+			(uuid "4ce50648-400c-4a83-a941-f325838c5180")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "4ce50648-400c-4a83-a941-f325838c5180")
 		)
 		(pin "OUT" input
 			(at 123.19 45.72 0)
+			(uuid "88180a33-cb62-4604-a27e-a52c3bfc7115")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "88180a33-cb62-4604-a27e-a52c3bfc7115")
 		)
 		(pin "K[0..7]" input
 			(at 123.19 41.91 0)
+			(uuid "4ea7531b-4c2d-4d32-be2b-ccfb5d11e4a6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4ea7531b-4c2d-4d32-be2b-ccfb5d11e4a6")
 		)
 		(instances
 			(project "led-array"
