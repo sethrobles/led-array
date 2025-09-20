@@ -80772,7 +80772,7 @@
 			(net 48 "unconnected-(J2-Shield-Pad6)")
 			(pinfunction "Shield")
 			(pintype "passive+no_connect")
-			(uuid "ecdb4d6d-d123-481c-8876-4311b4fdb908")
+			(uuid "f89a7566-4756-428d-be6a-140752679bf4")
 		)
 		(pad "6" thru_hole oval
 			(at 3.725 -1.85 270)
@@ -80784,7 +80784,7 @@
 			(net 48 "unconnected-(J2-Shield-Pad6)")
 			(pinfunction "Shield")
 			(pintype "passive+no_connect")
-			(uuid "ecdb4d6d-d123-481c-8876-4311b4fdb908")
+			(uuid "bc6b0ae0-7185-4a71-b7c9-43d714d5277d")
 		)
 		(pad "6" thru_hole oval
 			(at 3.875 1.95 270)
@@ -80796,7 +80796,7 @@
 			(net 48 "unconnected-(J2-Shield-Pad6)")
 			(pinfunction "Shield")
 			(pintype "passive+no_connect")
-			(uuid "ecdb4d6d-d123-481c-8876-4311b4fdb908")
+			(uuid "c953b5a1-34e0-4085-aefe-49a9f2d426c2")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_Micro-B_Wuerth_629105150521.step"
