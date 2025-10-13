@@ -112,7 +112,7 @@
 			(usegerberextensions yes)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
-			(creategerberjobfile yes)
+			(creategerberjobfile no)
 			(dashed_line_dash_ratio 12.000000)
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
@@ -142,7 +142,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "Gerbers/")
+			(outputdirectory "Assembly/")
 		)
 	)
 	(net 0 "")
@@ -254970,7 +254970,7 @@
 				)
 			)
 		)
-		(property "Value" "25u"
+		(property "Value" "22u"
 			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "28807d4a-a9f1-4591-b897-a437042c46fc")
