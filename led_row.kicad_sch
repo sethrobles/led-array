@@ -2078,6 +2078,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2286"
+			(at 148.59 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c668f789-1cd1-431e-94df-a7423a6980ed")
 		)
@@ -2656,6 +2665,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 114.3 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2286"
+			(at 114.3 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3248,6 +3266,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2286"
+			(at 137.16 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b27252d4-c718-4c45-aa8e-26c72b8e383a")
 		)
@@ -3826,6 +3853,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 125.73 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2286"
+			(at 125.73 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4419,6 +4455,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2286"
+			(at 80.01 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1d8d6a7a-2cc0-457f-9ae1-a924d9854926")
 		)
@@ -4997,6 +5042,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 91.44 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2286"
+			(at 91.44 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5588,6 +5642,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2286"
+			(at 160.02 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "76c43e19-16a0-4af2-840c-ccdd1961e22f")
 		)
@@ -6166,6 +6229,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 102.87 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2286"
+			(at 102.87 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
