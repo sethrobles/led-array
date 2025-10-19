@@ -89332,7 +89332,7 @@
 			(property pad_prop_heatsink)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 330 "unconnected-(J2-Shield-Pad6)")
+			(net 342 "unconnected-(J2-Shield-Pad6)_7")
 			(pinfunction "Shield")
 			(pintype "passive+no_connect")
 			(uuid "4dd74c53-3a4c-46ef-b682-8263ca783569")
@@ -89341,7 +89341,7 @@
 			(at -2.9 1.2375 270)
 			(size 1.2 1.9)
 			(layers "F.Cu" "F.Mask")
-			(net 331 "unconnected-(J2-Shield-Pad6)_1")
+			(net 341 "unconnected-(J2-Shield-Pad6)_6")
 			(pinfunction "Shield")
 			(pintype "passive+no_connect")
 			(uuid "4dd74c53-3a4c-46ef-b682-8263ca783569")
@@ -89353,7 +89353,7 @@
 			(property pad_prop_heatsink)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 332 "unconnected-(J2-Shield-Pad6)_2")
+			(net 340 "unconnected-(J2-Shield-Pad6)_5")
 			(pinfunction "Shield")
 			(pintype "passive+no_connect")
 			(uuid "4dd74c53-3a4c-46ef-b682-8263ca783569")
@@ -89362,7 +89362,7 @@
 			(at -1 1.2375 270)
 			(size 1.5 1.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 333 "unconnected-(J2-Shield-Pad6)_3")
+			(net 339 "unconnected-(J2-Shield-Pad6)_4")
 			(pinfunction "Shield")
 			(pintype "passive+no_connect")
 			(uuid "4dd74c53-3a4c-46ef-b682-8263ca783569")
@@ -89371,7 +89371,7 @@
 			(at 1 1.2375 270)
 			(size 1.5 1.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 339 "unconnected-(J2-Shield-Pad6)_4")
+			(net 333 "unconnected-(J2-Shield-Pad6)_3")
 			(pinfunction "Shield")
 			(pintype "passive+no_connect")
 			(uuid "4dd74c53-3a4c-46ef-b682-8263ca783569")
@@ -89383,7 +89383,7 @@
 			(property pad_prop_heatsink)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 340 "unconnected-(J2-Shield-Pad6)_5")
+			(net 332 "unconnected-(J2-Shield-Pad6)_2")
 			(pinfunction "Shield")
 			(pintype "passive+no_connect")
 			(uuid "4dd74c53-3a4c-46ef-b682-8263ca783569")
@@ -89392,7 +89392,7 @@
 			(at 2.9 1.2375 270)
 			(size 1.2 1.9)
 			(layers "F.Cu" "F.Mask")
-			(net 341 "unconnected-(J2-Shield-Pad6)_6")
+			(net 331 "unconnected-(J2-Shield-Pad6)_1")
 			(pinfunction "Shield")
 			(pintype "passive+no_connect")
 			(uuid "4dd74c53-3a4c-46ef-b682-8263ca783569")
@@ -89404,7 +89404,7 @@
 			(property pad_prop_heatsink)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 342 "unconnected-(J2-Shield-Pad6)_7")
+			(net 330 "unconnected-(J2-Shield-Pad6)")
 			(pinfunction "Shield")
 			(pintype "passive+no_connect")
 			(uuid "4dd74c53-3a4c-46ef-b682-8263ca783569")
@@ -138146,11 +138146,11 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "71d72dca-52f7-4836-8037-7be565e9961f")
-		(at 98 178.58 180)
+		(at 98 174.62 90)
 		(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x04 2.54mm single row")
 		(property "Reference" "J1"
-			(at 0 -2.33 0)
+			(at -6.14 0 0)
 			(layer "F.SilkS")
 			(uuid "85061843-d61e-4b8d-b084-6c5fb5d320dd")
 			(effects
@@ -138161,7 +138161,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
-			(at 0 9.95 0)
+			(at 6.14 0 0)
 			(layer "F.Fab")
 			(uuid "914b022c-2674-4c1b-82a6-ca3efa910c88")
 			(effects
@@ -138172,7 +138172,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -138185,7 +138185,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -138198,7 +138198,7 @@
 			)
 		)
 		(property "LCSC" "C5116483"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -138216,8 +138216,8 @@
 		(sheetfile "led-array.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start 1.38 1.27)
-			(end 1.38 9)
+			(start -2.54 -1.38)
+			(end 5.19 -1.38)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -138226,8 +138226,8 @@
 			(uuid "19544367-6eaf-4e24-9292-2033b892c47d")
 		)
 		(fp_line
-			(start -1.38 9)
-			(end 1.38 9)
+			(start 5.19 1.38)
+			(end 5.19 -1.38)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -138236,8 +138236,8 @@
 			(uuid "0c14793b-ffa7-4795-805a-3fba925ed9cd")
 		)
 		(fp_line
-			(start -1.38 1.27)
-			(end 1.38 1.27)
+			(start -2.54 1.38)
+			(end -2.54 -1.38)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -138246,8 +138246,8 @@
 			(uuid "29680094-48d1-4092-b54f-14c84656a99f")
 		)
 		(fp_line
-			(start -1.38 1.27)
-			(end -1.38 9)
+			(start -2.54 1.38)
+			(end 5.19 1.38)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -138256,8 +138256,8 @@
 			(uuid "85d8ebe8-459f-4c9e-a82b-80a050aa5fd1")
 		)
 		(fp_line
-			(start -1.38 0)
-			(end -1.38 -1.38)
+			(start -3.81 1.38)
+			(end -5.19 1.38)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -138266,8 +138266,8 @@
 			(uuid "471a7c16-5ebd-4db5-b78b-6f9ef9a4d74c")
 		)
 		(fp_line
-			(start -1.38 -1.38)
-			(end 0 -1.38)
+			(start -5.19 1.38)
+			(end -5.19 0)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -138276,8 +138276,8 @@
 			(uuid "3be7173b-2593-40d7-b4ed-91659dd2c0b5")
 		)
 		(fp_line
-			(start 1.77 9.39)
-			(end 1.77 -1.77)
+			(start 5.58 -1.77)
+			(end -5.58 -1.77)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -138286,8 +138286,8 @@
 			(uuid "d07ab9e1-9787-4df9-aaa6-747af3bf5697")
 		)
 		(fp_line
-			(start 1.77 -1.77)
-			(end -1.77 -1.77)
+			(start -5.58 -1.77)
+			(end -5.58 1.77)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -138296,8 +138296,8 @@
 			(uuid "b04dd725-e485-4d08-bc26-3d8cb77ec63d")
 		)
 		(fp_line
-			(start -1.77 9.39)
-			(end 1.77 9.39)
+			(start 5.58 1.77)
+			(end 5.58 -1.77)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -138306,8 +138306,8 @@
 			(uuid "233d7376-4158-49c3-9716-3df46dd460ba")
 		)
 		(fp_line
-			(start -1.77 -1.77)
-			(end -1.77 9.39)
+			(start -5.58 1.77)
+			(end 5.58 1.77)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -138316,8 +138316,8 @@
 			(uuid "342fb6e4-5156-47ed-b157-fdfbe900235d")
 		)
 		(fp_line
-			(start 1.27 8.89)
-			(end -1.27 8.89)
+			(start 5.08 -1.27)
+			(end 5.08 1.27)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -138326,8 +138326,8 @@
 			(uuid "ad02507d-e904-4f57-95d7-7b64e53a9a0e")
 		)
 		(fp_line
-			(start 1.27 -1.27)
-			(end 1.27 8.89)
+			(start -5.08 -1.27)
+			(end 5.08 -1.27)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -138336,8 +138336,8 @@
 			(uuid "10f5675b-f6a2-4303-ae50-13070dfcd304")
 		)
 		(fp_line
-			(start -0.635 -1.27)
-			(end 1.27 -1.27)
+			(start -5.08 0.635)
+			(end -5.08 -1.27)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -138346,8 +138346,8 @@
 			(uuid "69e54f40-9bae-4dff-b7fe-0d9ceb78638f")
 		)
 		(fp_line
-			(start -1.27 8.89)
-			(end -1.27 -0.635)
+			(start 5.08 1.27)
+			(end -4.445 1.27)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -138356,8 +138356,8 @@
 			(uuid "00c976cb-1e69-4566-adb8-bfcd45cbce75")
 		)
 		(fp_line
-			(start -1.27 -0.635)
-			(end -0.635 -1.27)
+			(start -4.445 1.27)
+			(end -5.08 0.635)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -138366,7 +138366,7 @@
 			(uuid "013574db-048c-44b8-8abb-fafe08dad9b5")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 3.81 90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "cb8ad7fb-c4f3-4947-8cba-73015e3e5de9")
 			(effects
@@ -138377,7 +138377,7 @@
 			)
 		)
 		(pad "1" thru_hole rect
-			(at 0 0 180)
+			(at -3.81 0 180)
 			(size 1.7 1.7)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -138388,7 +138388,7 @@
 			(uuid "3e1e92a2-e2f0-4176-8496-2a48296f90b5")
 		)
 		(pad "2" thru_hole circle
-			(at 0 2.54 180)
+			(at -1.27 0 180)
 			(size 1.7 1.7)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -138399,7 +138399,7 @@
 			(uuid "74968bbb-7988-45d5-b2b2-af914277d0d0")
 		)
 		(pad "3" thru_hole circle
-			(at 0 5.08 180)
+			(at 1.27 0 180)
 			(size 1.7 1.7)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -138410,7 +138410,7 @@
 			(uuid "157a8745-55de-46b0-8963-e3fd249e6842")
 		)
 		(pad "4" thru_hole circle
-			(at 0 7.62 180)
+			(at 3.81 0 180)
 			(size 1.7 1.7)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
