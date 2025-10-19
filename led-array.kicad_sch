@@ -4068,6 +4068,16 @@
 		)
 		(uuid "a2c023ca-b2e8-4606-82fd-ee9666a73ce7")
 	)
+	(text "C1525"
+		(exclude_from_sim no)
+		(at 203.2 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b2fa1fef-329d-4d60-94d2-335fb61ba039")
+	)
 	(text "LED GROUPS"
 		(exclude_from_sim no)
 		(at 38.1 154.94 0)
@@ -7195,7 +7205,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 171.45 66.0399 0)
 			(effects
 				(font
@@ -7231,7 +7241,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525 "
+		(property "LCSC" "C1525"
 			(at 167.64 64.77 0)
 			(effects
 				(font
@@ -7376,6 +7386,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C8545 "
+			(at 278.13 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "023d4bc5-ad00-42b0-9cc1-45312eadd92c")
 		)
@@ -7487,7 +7506,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 284.48 58.42 0)
 			(effects
 				(font
@@ -7524,6 +7543,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 284.48 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2297"
 			(at 284.48 58.42 0)
 			(effects
 				(font
@@ -7575,7 +7603,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_Micro-B_Wuerth_629105150521"
+		(property "Footprint" "Connector_USB:USB_Micro-B_Molex-105017-0001"
 			(at 281.94 85.09 0)
 			(effects
 				(font
@@ -7594,6 +7622,15 @@
 			)
 		)
 		(property "Description" "USB Micro Type B connector"
+			(at 285.75 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C136000"
 			(at 285.75 83.82 0)
 			(effects
 				(font
@@ -8151,6 +8188,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25117"
+			(at 266.7 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b9d2eaf7-0dbe-4345-9986-ee951ccf8bb6")
 		)
@@ -8352,6 +8398,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C8545 "
+			(at 321.31 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6d4ceac5-38ec-49f1-9224-31693d06cb9f")
 		)
@@ -8502,6 +8557,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5116483"
+			(at 281.94 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c0e6e8b3-8791-401d-a863-79375694a38b")
 		)
@@ -8636,6 +8700,15 @@
 		)
 		(property "Description" "Ferrite bead"
 			(at 283.21 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14709"
+			(at 283.21 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8953,7 +9026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 273.05 46.9899 0)
 			(effects
 				(font
@@ -8962,7 +9035,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 270.2052 49.53 0)
 			(effects
 				(font
@@ -8981,6 +9054,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 269.24 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15849 "
 			(at 269.24 45.72 0)
 			(effects
 				(font
@@ -9155,7 +9237,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 215.9 46.9899 0)
 			(effects
 				(font
@@ -9191,7 +9273,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525 "
+		(property "LCSC" "C1525"
 			(at 212.09 45.72 0)
 			(effects
 				(font
@@ -9300,7 +9382,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 299.72 45.7199 0)
 			(effects
 				(font
@@ -9309,7 +9391,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 296.8752 48.26 0)
 			(effects
 				(font
@@ -9328,6 +9410,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 295.91 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15849 "
 			(at 295.91 44.45 0)
 			(effects
 				(font
@@ -9368,7 +9459,7 @@
 				)
 			)
 		)
-		(property "Value" "10p"
+		(property "Value" "10pF"
 			(at 181.356 101.346 0)
 			(effects
 				(font
@@ -9395,6 +9486,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 177.8 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C32949"
 			(at 177.8 99.06 0)
 			(effects
 				(font
@@ -9531,6 +9631,15 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/drain/source"
+			(at 256.54 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C8545 "
 			(at 256.54 207.01 0)
 			(effects
 				(font
@@ -9743,6 +9852,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C8734"
+			(at 234.95 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "12"
 			(uuid "b8161e47-8982-4971-a3f3-3c14691d947d")
 		)
@@ -9914,7 +10032,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 168.91 46.9899 0)
 			(effects
 				(font
@@ -9923,7 +10041,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 166.0652 49.53 0)
 			(effects
 				(font
@@ -9942,6 +10060,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 165.1 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C13585"
 			(at 165.1 45.72 0)
 			(effects
 				(font
@@ -10134,7 +10261,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 205.74 65.278 90)
 			(effects
 				(font
@@ -10154,6 +10281,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 205.74 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17414"
+			(at 205.74 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10336,7 +10472,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 268.478 77.47 90)
 			(effects
 				(font
@@ -10355,6 +10491,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 266.7 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22843"
 			(at 266.7 77.47 0)
 			(effects
 				(font
@@ -10397,7 +10542,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 182.88 46.9899 0)
 			(effects
 				(font
@@ -10433,7 +10578,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525 "
+		(property "LCSC" "C1525"
 			(at 179.07 45.72 0)
 			(effects
 				(font
@@ -10484,7 +10629,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 65.7352 102.87 0)
 			(effects
 				(font
@@ -10511,7 +10656,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1634"
+		(property "LCSC" "C32949"
 			(at 64.77 99.06 0)
 			(effects
 				(font
@@ -10778,7 +10923,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 194.31 46.9899 0)
 			(effects
 				(font
@@ -10814,7 +10959,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525 "
+		(property "LCSC" "C1525"
 			(at 190.5 45.72 0)
 			(effects
 				(font
@@ -11312,6 +11457,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C8545 "
+			(at 299.72 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1f155353-1a9b-4ae6-8a8f-d646b8338a5d")
 		)
@@ -11347,7 +11501,7 @@
 				)
 			)
 		)
-		(property "Value" "10p"
+		(property "Value" "10pF"
 			(at 196.596 100.076 0)
 			(effects
 				(font
@@ -11374,6 +11528,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 193.04 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C32949"
 			(at 193.04 97.79 0)
 			(effects
 				(font
@@ -11717,6 +11880,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C8545 "
+			(at 321.31 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dfd4565b-3d06-400b-b5b6-384e8988e587")
 		)
@@ -12010,6 +12182,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C9865"
+			(at 45.72 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "df2ce743-ef8c-4efb-b090-20f1aac4fbd7")
 		)
@@ -12062,7 +12243,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 205.74 46.9899 0)
 			(effects
 				(font
@@ -12098,7 +12279,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525 "
+		(property "LCSC" "C1525"
 			(at 201.93 45.72 0)
 			(effects
 				(font
@@ -12207,7 +12388,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "10nF"
 			(at 257.81 46.9899 0)
 			(effects
 				(font
@@ -12235,6 +12416,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 254 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C57112"
 			(at 254 45.72 0)
 			(effects
 				(font
@@ -12524,6 +12714,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C8545 "
+			(at 299.72 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b3ac627c-bf03-4f6c-801e-4946a0b8bd5f")
 		)
@@ -12717,6 +12916,15 @@
 			)
 		)
 		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+			(at 185.42 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C9002"
 			(at 185.42 86.36 0)
 			(effects
 				(font
@@ -12946,6 +13154,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C8545 "
+			(at 278.13 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1c2b2b14-c839-4f96-89df-819243f23bef")
 		)
@@ -13076,6 +13293,15 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/drain/source"
+			(at 256.54 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C8545 "
 			(at 256.54 173.99 0)
 			(effects
 				(font

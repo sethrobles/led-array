@@ -2061,7 +2061,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 22.86 60.9599 0)
 			(effects
 				(font
@@ -2097,7 +2097,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525 "
+		(property "LCSC" "C1525"
 			(at 19.05 59.69 0)
 			(effects
 				(font
@@ -4072,6 +4072,15 @@
 			)
 		)
 		(property "Description" "8-bit serial in/out Shift Register 3-State Outputs"
+			(at 53.34 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5947"
 			(at 53.34 55.88 0)
 			(effects
 				(font
