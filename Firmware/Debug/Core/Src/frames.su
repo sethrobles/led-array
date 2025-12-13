@@ -1,0 +1,14 @@
+../Core/Src/frames.c:13:13:clearFrame	16	static
+../Core/Src/frames.c:18:13:variableDelay	32	static,ignoring_inline_asm
+../Core/Src/frames.c:32:6:animateBorderDot	56	static
+../Core/Src/frames.c:147:13:borderIndexToCoord	32	static
+../Core/Src/frames.c:185:6:animateCornersAroundEdges	64	static
+../Core/Src/frames.c:229:6:animateDiagonalDot	72	static
+../Core/Src/frames.c:321:17:hb_rand16	4	static
+../Core/Src/frames.c:332:13:drawSprite	40	static
+../Core/Src/frames.c:360:6:animateSpriteBubbles	48	static
+../Core/Src/frames.c:437:17:fw_rand16	4	static
+../Core/Src/frames.c:449:13:fw_busyDelay	24	static
+../Core/Src/frames.c:462:13:fw_drawExplosion	40	static
+../Core/Src/frames.c:490:6:animateSingleFirework	64	static
+../Core/Src/frames.c:557:6:animateFireworks	24	static

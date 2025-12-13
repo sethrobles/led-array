@@ -1,0 +1,6 @@
+../Core/Src/led_array.c:44:6:ShiftReg_Write32	32	static
+../Core/Src/led_array.c:63:6:disableAllRows	8	static
+../Core/Src/led_array.c:72:6:enableRow	16	static
+../Core/Src/led_array.c:81:6:writeFrame	48	static
+../Core/Src/led_array.c:125:6:repeatFrame_20	16	static
+../Core/Src/led_array.c:131:6:repeatFrame	24	static

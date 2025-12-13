@@ -7,20 +7,12 @@ The design features:
 - **16 shift registers (74HC595)** for serial-to-parallel expansion
 - A hierarchical schematic setup for scalability
 
+
+
+
 ### Inspiration
 This project was inspired (and guided) by my friend [@floreacton](https://github.com/floreacton).
 
 ---
 
-## Current Status
-This design is still being prototyped. Expect changes to both the schematic and PCB layout as I refine the design.
-
----
-
-## Goals
-- [ ] Finish schematic design and ERC checks
-- [ ] Route PCB with proper 4-layer stackup
-- [ ] Order prototype boards from JLCPCB
-- [ ] Test LED scanning with STM32 firmware
-
----
+## Project Description
