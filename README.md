@@ -90,4 +90,4 @@ The full design process, decisions, mistakes, and lessons learned are documented
 https://sethrobles.github.io/blogs/led-array/
 
 
-*Summary Written with ChatGPT, read before publishing
+*Summary Written with ChatGPT
